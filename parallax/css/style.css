@@ -1,0 +1,67 @@
+div{
+    height: 700px;
+    /* background-color: beige; */
+}
+div, h1, p{
+    margin: 0;
+    padding: 0;
+}
+h1, p{
+    text-align: center;
+}
+.blue{
+    /* background-color: burlywood; */
+}
+/* to center */
+.center{
+    width:500px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:ivory;
+    /* when some elements overflow up or down it is used */
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:coral ;
+    padding: 15px 15px;
+}
+li a:hover{
+    background-color:bisque;
+}
+.righty{
+    float: right;
+}
+/* #navbar {
+    width: 100vw;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: green;
+}
+
+#navbar i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+
+}
+#navbar h1 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color:coral ;
+    padding: 15px 15px;
+    text-decoration: none;
+} */
